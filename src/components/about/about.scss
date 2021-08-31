@@ -1,0 +1,37 @@
+.about-container{
+    display: flex;
+    width: 77%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    position: relative;
+    .about-img{
+        height: auto;
+        display: inline-block;
+    }
+    .about-text{
+        position: absolute;
+        display: inline-block;
+        padding-left: 7rem;
+        padding-top: 6rem;
+        background-color: #fff;
+        width: 41%;
+        right: 0;
+        bottom: 0;
+        .about-text-head{
+            font-weight: 100;
+            font-size: 3.5rem;
+            color: var(--Black);
+            text-align: left;
+            font-family:  'Josefin Sans', sans-serif;
+        }
+        .about-paragraph{
+            color: var(--DarkGray); 
+            text-align: left;
+            font-family:  'Alata', sans-serif;
+            font-size: 1rem;
+            line-height: 30px;
+        }
+
+    }
+}

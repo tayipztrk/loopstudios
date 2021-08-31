@@ -1,0 +1,61 @@
+.header {
+  // background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  //   url("./assets/images/desktop/image-hero.jpg ");
+  // background-repeat: no-repeat;
+  // background-size: 100% auto;
+  height: 95vh;
+  width: 100%;
+}
+
+.header-container {
+  font-weight: 300;
+  width: 77%;
+  margin: auto;
+
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25vh;
+    align-items: center;
+    a {
+      margin-left: 1.3rem;
+      color: #fff;
+      text-decoration: none;
+      font-family: "Alata", sans-serif;
+      color: var(--White);
+      opacity: 0.9;
+      padding: .5rem;
+      display:inline-block;
+      position: relative;
+      
+    &:after{
+        border-bottom: 2px solid transparent;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+      &:hover:after {
+        content: "";
+        color: #fff;
+        width: 35%;
+        margin: 0 auto;
+        margin-top: .8rem;
+        margin-left: -60%;
+        border-color: #fff;
+      }
+    }
+  }
+  .header-text{
+      display: flex;
+      color: #fff;
+      font-size: 2rem;
+      font-family: 'Josefin Sans', sans-serif;
+      padding: 40px;
+      border: 2px solid #fff;
+      width: 50%;
+      font-size: 4.5rem;
+      text-align: left;
+      margin-top: 3.8rem;
+  }
+}
